@@ -56,7 +56,7 @@
                     <li>🕒 Monitor login timestamps</li>
                     <li>📁 Export logs for audits</li>
                 </ul>
-                <button class="btn btn-primary btnBlog" style="
+                <button class="btn btn-primary btnBlog mt-5" style="
   border-radius: 30px;
   font-size: 22px;
   text-align: center;
