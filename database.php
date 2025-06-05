@@ -1,14 +1,12 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "LoginTracker";
-$port = "3307";
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname, $port);
+$host = 'mysql_server';       // ← Matches service name in docker-compose.yml
+$db   = 'LoginTracker';
+$user = 'user';
+$pass = 'password';
 
-// Check connection
+// Use correct variable names
+$conn = new mysqli($host, $user, $pass, $db);
+
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-?>

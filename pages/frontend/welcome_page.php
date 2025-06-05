@@ -41,21 +41,22 @@
 
         <div class="blog mt-5">
             <h1 class="mx-5 my-3" style="font-size: 50px">
-                Welcome to the Login Tracker Dashboard
+                Visual Game
             </h1>
             <h2 class="mx-5 text-success">
-                Monitor, audit, and track user login activity in real-time ensure<br>
-                secure access and investigate login patterns efficiently.
+                Track every move, power-up, and play —<br>
+                monitor player actions and unlock game insights in real time!
             </h2>
 
             <div class="col-4 mt-5 mx-5">
                 <ul class="fs-6">
-                    <li>🔐 Real-time login tracking</li>
-                    <li>📊 View successful and failed attempts</li>
-                    <li>📍 Track IP address and device info</li>
-                    <li>🕒 Monitor login timestamps</li>
-                    <li>📁 Export logs for audits</li>
+                    <li>🎮 Real-time player activity tracking</li>
+                    <li>🏆 View wins, defeats, and game results</li>
+                    <li>🕹️ Track player controls and device usage</li>
+                    <li>🕒 Monitor session start and end times</li>
+                    <li>📁 Export gameplay data for analysis</li>
                 </ul>
+
                 <button class="btn btn-primary btnBlog mt-5" style="
   border-radius: 30px;
   font-size: 22px;
